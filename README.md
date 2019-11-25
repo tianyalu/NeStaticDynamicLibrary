@@ -28,6 +28,9 @@
 ![image](https://github.com/tianyalu/NeStaticDynamicLibrary/blob/master/show/static_library_command12.png)  
 #### 2.3 生成静态库实操
 ![image](https://github.com/tianyalu/NeStaticDynamicLibrary/blob/master/show/my_static_library_command13.png)  
+**说明:**  
+`-ltool表示要链接名称为tool的库， -L. 表示程序按照-L指定的路径（当前目录）寻找库文件`  
+
 
 
 ### 三、动态库
@@ -37,6 +40,8 @@
 ![image](https://github.com/tianyalu/NeStaticDynamicLibrary/blob/master/show/dynamic_library_command15.png)  
 #### 3.1 生成动态库实操
 ![image](https://github.com/tianyalu/NeStaticDynamicLibrary/blob/master/show/my_dynamic_library_command16.png)  
+**说明:**  
+`-fPIC: file Position Independent Code—>与文件地址无关的代码`  
 
 ### 四、动态库静态库区别
 ![image](https://github.com/tianyalu/NeStaticDynamicLibrary/blob/master/show/difference17.png)
